@@ -1,3 +1,5 @@
+import sys
+
 from npm_calmarendian_date import CalmarendianDate
 from npm_calmarendian_date.c_date_config import CDateConfig
 
@@ -16,3 +18,4 @@ class MyConfig(object):
 
 
 conf: MyConfig = MyConfig()
+sys.path.insert(0, "../npm_calmarendian_elections")
