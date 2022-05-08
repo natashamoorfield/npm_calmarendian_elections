@@ -1,4 +1,6 @@
-from config import conf
+#! /usr/bin/env python
+
+from npm_calmarendian_elections.elections_dates.config import conf
 from npm_calmarendian_elections.electoral_cycle import ElectoralCycle
 
 
